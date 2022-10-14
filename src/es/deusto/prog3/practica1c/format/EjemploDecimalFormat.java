@@ -19,6 +19,10 @@ public class EjemploDecimalFormat {
 	public static void main(String[] args) {
 		// Los _ se pueden usar para leer mejor los números largos
 		double doubleNumber = 1_234_567.89;
+		
+		
+		
+		
 
 		DecimalFormat dfLocale = new DecimalFormat();
 		NumberFormat nfUS = DecimalFormat.getNumberInstance(Locale.US);
